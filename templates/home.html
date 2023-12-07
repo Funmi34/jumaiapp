@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type='text/css' media='screen' href="{% static 'styles/main.css' %}">
+</head>
+<body class="gh" style=" background-image: url('{% static 'images/R_jumiastar.png'%};">
+
+   {% block content %}
+    <div class="top">
+        <img src="{% static 'images/BF-brands-top-strip.gif' %}" alt="" width="100%"> 
+    </div>
+    
+    <div class="topp">
+        <a href=""><img src="{% static 'images/R_jumiastar.png' %}" width="17px " ><span class="Sell">sell on jumia</span></a>
+        <span class="nav">
+            <a href=""><img src="{% static 'images/R.png' %}" width="60px "></a>
+            <a href=""><img src="{% static 'images/shield-logo-icon-png-favpng-usCsJh7tPhjtZ4mqxUGdwZAPE.jpg' %}" width="12px "><span class="sell">PAY</span></a>
+            <a href=""><img src="{% static 'images/1320683foodicon.png' %}" width="17px "><span class="sell">FOOD</span></a>
+            <a href=""><img src="{% static 'images/logistics-icon-png-15.png' %}" width="17px "><span class="sell">LOGISTICS</span></a>
+        </span>
+    </div>
+
+    <div class="mid">
+        <span class="tim">
+            <a href =""><img src="{% static 'images/R.png' %}" width="170px "></a>
+        </span>
+            <form method="POST" action="">
+            <input type="text" placeholder="Search product, brand and categories" class="tert">
+            <input type="submit" value="SEARCH" class="submit">
+            </form>
+            <span class="navl">
+                <a href=""><img src="{% static 'images/R(1)account.png' %}" width="25px "><span class="sell">Account</span><img src="{% static 'images/depositphotos_80596450-stock-illustration-down-arrow-vector-icon.jpg' %}" width="17px "></a>
+                <a href=""><img src="{% static 'images/R(1)help.png' %}" width="25px "><span class="sell">Help</span><img src="{% static 'images/depositphotos_80596450-stock-illustration-down-arrow-vector-icon.jpg' %}" width="17px "></a>
+                <a href=""><img src="{% static 'images/895581cart.png' %}" width="25px "><span class="sell">Cart</span><img src="{% static 'images/depositphotos_80596450-stock-illustration-down-arrow-vector-icon.jpg' %}" width="17px "></a>
+            </span>
+    
+    </div>
+    <div class="container">
+        <div class="navbar">
+            <a href=""><img src="{% static 'images/R(1)account.png' %}" width="15px ">Supermarket</a>
+            <a href=""><img src="{% static 'images/R(1)help.png' %}" width="15px ">Health & Beauty</a>
+            <a href=""><img src="{% static 'images/895581cart.png' %}" width="15px ">Home & Office</a>
+            <a href=""><img src="{% static 'images/R(1)account.png' %}" width="15px ">Appliances</a>
+            <a href=""><img src="{% static 'images/R(1)help.png' %}" width="15px ">Phone & Tablet</a>
+            <a href=""><img src="{% static 'images/895581cart.png' %}" width="15px ">Computing</a>
+            <a href=""><img src="{% static 'images/R(1)account.png' %}" width="15px ">Electronics</a>
+            <a href=""><img src="{% static 'images/R(1)help.png' %}" width="15px ">Fashion</a>
+            <a href=""><img src="{% static 'images/895581cart.png' %}" width="15px ">Baby Products</a>
+            <a href=""><img src="{% static 'images/R(1)account.png' %}" width="15px ">Gaming</a>
+            <a href=""><img src="{% static 'images/R(1)help.png' %}" width="15px ">Sporting Goods</a>
+            <a href=""><img src="{% static 'images/895581cart.png' %}" width="15px ">Other Categories</a>
+        </div>
+    </div>
+    <div class="col3">
+        <div class="col3a">
+            <a href=""><img src="{% static 'images/ezgif.com-optimize_1.gif' %}" width="170px "><p class="selp">Black Friday</p></a>
+            <a href=""><img src="{% static 'images/phones-tablets_300x240.png' %}" width="170px "><p class="selp">Phones & Tablets</p></a>
+            <a href=""><img src="{% static 'images/grocies-freelinks_3.jpg' %}" width="170px "><p class="selp">Grocreies</p></a>
+            <a href=""><img src="{% static 'images/computing_4.jpg' %}" width="170px "><p class="selp">Computing Deals</p></a>
+            <a href=""><img src="{% static 'images/5k-store_5.gif' %}" width="170px "><p class="selp">$5000 Store</p></a>
+            <a href=""><img src="{% static 'images/TELEVISION_6.jpg' %}" width="170px "><p class="selp">Television</p></a>
+            <a href=""><img src="{% static 'images/clearance_7.gif' %}" width="170px "><p class="selp">Clearance Sale</p></a>
+            <a href=""><img src="{% static 'images/refrigerators_300x240_8.png' %}" width="170px "><p class="selp">Refrigirator</p></a>
+            <a href=""><img src="{% static 'images/earphones_300x240_9.png' %}" width="170px "><p class="selp">Mobile Accessories</p></a>
+            <a href=""><img src="{% static 'images/generator_10.gif' %}" width="170px "><p class="selp">Generators</p></a>
+            <a href=""><img src="{% static 'images/fashion_300x240_11.png' %}" width="170px "><p class="selp">Men's Sneakers</p></a>
+            <a href=""><img src="{% static 'images/watches_300x240_12.png' %}" width="170px "><p class="selp">Watches</p></a>
+        </div>
+    </div>
+
+    <div class="col3">
+        <div class="col3a">
+            <a href=""><img src="{% static 'images/ezgif.com-optimize_1.gif' %}" width="170px "><p class="selp">Black Friday</p></a>
+            <a href=""><img src="{% static 'images/phones-tablets_300x240.png' %}" width="170px "><p class="selp">Phones & Tablets</p></a>
+            <a href=""><img src="{% static 'images/grocies-freelinks_3.jpg' %}" width="170px "><p class="selp">Grocreies</p></a>
+            <a href=""><img src="{% static 'images/computing_4.jpg' %}" width="170px "><p class="selp">Computing Deals</p></a>
+            <a href=""><img src="{% static 'images/5k-store_5.gif' %}" width="170px "><p class="selp">$5000 Store</p></a>
+            <a href=""><img src="{% static 'images/TELEVISION_6.jpg' %}" width="170px "><p class="selp">Television</p></a>
+        </div>
+    </div>  
+    {% endblock content %}
+    </body>
+    </html>
